@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>8-dars</title>
+        <link rel="stylesheet" href="./src/output.css" />
+        <link rel="stylesheet" href="./main.css" />
+    </head>
+    <body class="bg-slate-100 dark:bg-slate-900">
+        <header class="header pt-5 pb-5 bg-slate-300 shadow-xl">
+            <div
+                class="container w-4/6 flex ml-auto mr-auto items-center justify-between">
+                <a class="p-2 rounded-xl bg-pink-400" href="./index.html"
+                    >MyStore</a
+                >
+                <nav>
+                    <ul class="flex gap-8">
+                        <li>
+                            <a
+                                class="js-link text-slate-800 transition-opacity hover:opacity-55"
+                                href="#"
+                                >Home</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="js-link1 text-slate-800 transition-opacity hover:opacity-55"
+                                href="#"
+                                >About</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="js-link2 text-slate-800 transition-opacity hover:opacity-55"
+                                href="#"
+                                >Contact</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="js-link3 text-slate-800 transition-opacity hover:opacity-55"
+                                href="#"
+                                >News</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+                <div class="flex gap-8">
+                    <button class="js-btn">
+                    </button>
+                    <img
+                        class="w-11 h-11 rounded-3xl"
+                        src="https://img.bleacherreport.net/img/images/photos/002/665/313/hi-res-180963744-lionel-messi-of-fc-barcelona-celebrates-after-scoring_crop_exact.jpg?w=1200&h=1200&q=75"
+                        alt="messi" />
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="pt-6 pb-8">
+                <div class="container w-4/6 ml-auto mr-auto">
+                    <h1 class="title text-4xl mb-4">All Products</h1>
+                    <div class="loading">
+                        <div class="loader">
+                            <span class="loader-text">loading</span>
+                              <span class="load"></span>
+                          </div>
+                        
+                    </div>
+                    <div
+                        class="wrapper flex flex-wrap justify-between gap-4"></div>
+                </div>
+            </section>
+        </main>
+        <script src="./app.js"></script>
+    </body>
+</html>
